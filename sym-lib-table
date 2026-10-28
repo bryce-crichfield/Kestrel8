@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74-Series")(type "KiCad")(uri "${KIPRJMOD}/Symbols/0_74xx.kicad_sym")(options "")(descr "Project 74HC symbols"))
+)

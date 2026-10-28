@@ -1,0 +1,27 @@
+# KiCad backups and caches
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*-bak
+\#auto_saved_files#
+_autosave-*
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl
+
+# Generated outputs
+*-cache.lib
+*.rpt
+*.net
+*.xml
+gerbers/
+plots/
+production/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

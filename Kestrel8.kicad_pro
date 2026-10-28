@@ -627,20 +627,12 @@
       "Root"
     ],
     [
-      "95e50153-3e7b-4a56-9d25-cd92eb8b5ed2",
-      "ProgramCounter"
-    ],
-    [
       "502d5c19-77db-4efd-ba1d-400496cafb70",
-      "RegisterFile"
-    ],
-    [
-      "774cf7fb-f197-448f-8cbb-d548460b2762",
-      "InstructionRegister"
+      "RegistersUnit"
     ],
     [
       "0634ef32-2c4c-48f1-8aa2-2dae2aa275c2",
-      "MemoryAddressRegister"
+      "MemoryUnit"
     ],
     [
       "b2e6dc3b-cddf-47f1-ac7b-c4608d49f9bc",

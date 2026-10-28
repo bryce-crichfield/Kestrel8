@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0634ef32-2c4c-48f1-8aa2-2dae2aa275c2")
-		(property "Sheetname" "MemoryAddressRegister"
+		(property "Sheetname" "MemoryUnit"
 			(at 25.4 50.0884 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MemoryAddressRegister.kicad_sch"
+		(property "Sheetfile" "MemoryUnit.kicad_sch"
 			(at 25.4 64.0846 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "502d5c19-77db-4efd-ba1d-400496cafb70")
-		(property "Sheetname" "RegisterFile"
+		(property "Sheetname" "RegistersUnit"
 			(at 63.5 24.6884 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RegisterFile.kicad_sch"
+		(property "Sheetfile" "RegistersUnit.kicad_sch"
 			(at 63.5 38.6846 0)
 			(effects
 				(font
@@ -85,90 +85,6 @@
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 101.6 25.4)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "774cf7fb-f197-448f-8cbb-d548460b2762")
-		(property "Sheetname" "InstructionRegister"
-			(at 101.6 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "InstructionRegister.kicad_sch"
-			(at 101.6 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Kestrel8"
-				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 25.4)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "95e50153-3e7b-4a56-9d25-cd92eb8b5ed2")
-		(property "Sheetname" "ProgramCounter"
-			(at 25.4 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ProgramCounter.kicad_sch"
-			(at 25.4 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Kestrel8"
-				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630"
-					(page "2")
 				)
 			)
 		)
@@ -216,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 50.8)
+		(at 25.4 25.654)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +148,7 @@
 		)
 		(uuid "dd52052c-f3ac-43e5-bee1-8f275c8af5ca")
 		(property "Sheetname" "ControlUnit"
-			(at 101.6 50.0884 0)
+			(at 25.4 24.9424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "ControlUnit.kicad_sch"
-			(at 101.6 64.0846 0)
+			(at 25.4 38.9386 0)
 			(effects
 				(font
 					(size 1.27 1.27)

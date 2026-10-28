@@ -7723,14 +7723,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "MARLO"
-			(at 204.0733 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 204.0733 35.56 0)
 			(effects
@@ -7765,6 +7757,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "MARLO"
+			(at 204.0733 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7904,6 +7904,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0394895f-8fa8-4a74-bfa3-2f9b302c9a29")
+		(property "Reference" "#PWR473"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c13dcad4-06c2-4d95-a865-60623a611eee")
+		)
+		(instances
+			(project "Kestrel8"
+				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/0634ef32-2c4c-48f1-8aa2-2dae2aa275c2"
+					(reference "#PWR473")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 201.93 25.4 0)
 		(unit 1)
@@ -8031,6 +8098,73 @@
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/0634ef32-2c4c-48f1-8aa2-2dae2aa275c2"
 					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "082460bc-3e7a-4cc9-99bf-67ea8ffb2e20")
+		(property "Reference" "#PWR472"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebafd520-a314-42dc-885c-8057b059b057")
+		)
+		(instances
+			(project "Kestrel8"
+				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/0634ef32-2c4c-48f1-8aa2-2dae2aa275c2"
+					(reference "#PWR472")
 					(unit 1)
 				)
 			)
@@ -8189,14 +8323,6 @@
 				)
 			)
 		)
-		(property "Function" "IO_SELECT"
-			(at 91.4317 215.90 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS30"
 			(at 91.4317 220.98 0)
 			(effects
@@ -8230,6 +8356,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "IO_SELECT"
+			(at 91.4317 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -8869,14 +9003,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ADR_DECODE"
-			(at 182.4833 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS138"
 			(at 182.4833 215.9 0)
 			(effects
@@ -8911,6 +9037,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ADR_DECODE"
+			(at 182.4833 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -9574,14 +9708,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "MARHI"
-			(at 257.4133 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 257.4133 35.56 0)
 			(effects
@@ -9616,6 +9742,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "MARHI"
+			(at 257.4133 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11417,14 +11551,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "TLO"
-			(at 46.5933 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 46.5933 35.56 0)
 			(effects
@@ -11459,6 +11585,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "TLO"
+			(at 46.5933 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11549,14 +11683,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "THI_OUTPUT"
-			(at 99.9333 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74HC541"
 			(at 99.9333 100.33 0)
 			(effects
@@ -11591,6 +11717,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "THI_OUTPUT"
+			(at 99.9333 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -11798,6 +11932,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf992f73-69f1-476f-acdc-485f7606514d")
+		(property "Reference" "#PWR474"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a0ffd4d-ca25-4685-bbbb-28a218f189bc")
+		)
+		(instances
+			(project "Kestrel8"
+				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/0634ef32-2c4c-48f1-8aa2-2dae2aa275c2"
+					(reference "#PWR474")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 322.58 171.45 0)
 		(unit 4)
@@ -11920,14 +12121,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "TLO_OUTPUT"
-			(at 46.5933 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74HC541"
 			(at 46.5933 100.33 0)
 			(effects
@@ -11962,6 +12155,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "TLO_OUTPUT"
+			(at 46.5933 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -12321,14 +12522,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "THI"
-			(at 99.9333 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 99.9333 35.56 0)
 			(effects
@@ -12363,6 +12556,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "THI"
+			(at 99.9333 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

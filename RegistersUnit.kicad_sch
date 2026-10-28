@@ -5936,7 +5936,7 @@
 			)
 		)
 	)
-	(global_label "RD_1"
+	(global_label "IR0_3"
 		(shape input)
 		(at 182.22 38.1 180)
 		(fields_autoplaced yes)
@@ -6112,7 +6112,7 @@
 			)
 		)
 	)
-	(global_label "RD_0"
+	(global_label "IR0_2"
 		(shape input)
 		(at 182.22 40.64 180)
 		(fields_autoplaced yes)
@@ -6288,7 +6288,7 @@
 			)
 		)
 	)
-	(global_label "RA_1"
+	(global_label "IR0_1"
 		(shape input)
 		(at 182.22 68.58 180)
 		(fields_autoplaced yes)
@@ -6640,7 +6640,7 @@
 			)
 		)
 	)
-	(global_label "RB_0"
+	(global_label "IR1_6"
 		(shape input)
 		(at 182.22 101.6 180)
 		(fields_autoplaced yes)
@@ -6860,7 +6860,7 @@
 			)
 		)
 	)
-	(global_label "RA_0"
+	(global_label "IR0_0"
 		(shape input)
 		(at 182.22 71.12 180)
 		(fields_autoplaced yes)
@@ -7058,7 +7058,7 @@
 			)
 		)
 	)
-	(global_label "RB_1"
+	(global_label "IR1_7"
 		(shape input)
 		(at 182.22 99.06 180)
 		(fields_autoplaced yes)
@@ -7181,6 +7181,12 @@
 			(uuid "23c6e7e6-a2ec-4df1-bd7d-c0d2e949ffc6")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0301")
@@ -7247,6 +7253,12 @@
 			(uuid "1c4f3fc4-6120-471c-9d54-f828286432a8")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0185")
@@ -7272,14 +7284,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R0"
-			(at 42.7833 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS377"
@@ -7316,6 +7320,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R0"
+			(at 42.7833 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -7379,6 +7391,12 @@
 			(uuid "411b66b1-5ff6-40b8-af59-4cc3e262109f")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U57")
@@ -7445,6 +7463,12 @@
 			(uuid "ba833db4-9532-48fb-8008-81bfdc993690")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0199")
@@ -7511,6 +7535,12 @@
 			(uuid "e583d05e-1b6f-4a9f-8f4f-020bf3225252")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0192")
@@ -7576,6 +7606,12 @@
 			(uuid "837e5061-1120-462a-821c-ed2e2258256f")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0313")
@@ -7641,6 +7677,12 @@
 			(uuid "0b048a35-81d0-4a4d-821e-22c870255c50")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0303")
@@ -7708,6 +7750,12 @@
 			(uuid "ddc9225c-e0f7-47fc-8fda-98fb3071b961")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0189")
@@ -7774,6 +7822,12 @@
 			(uuid "ab793e97-599e-4b49-af05-33e11d3175f6")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0188")
@@ -7842,6 +7896,12 @@
 			(uuid "7069e140-5dfa-4f10-834c-c78c12457ce0")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C49")
@@ -7907,6 +7967,12 @@
 			(uuid "ebbdd7fd-92e8-4b8c-ba2e-40e93d263940")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0310")
@@ -7974,6 +8040,12 @@
 			(uuid "e531a39f-876f-48f8-95ac-e37383249abc")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0200")
@@ -8040,6 +8112,12 @@
 			(uuid "30c99699-f868-4210-9c19-9ed91e06dc7c")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0198")
@@ -8106,6 +8184,12 @@
 			(uuid "1f6aac4c-e44a-4fd9-8adc-b5f20ea7b521")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0202")
@@ -8131,14 +8215,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R0_OUTPUT1"
-			(at 88.5033 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS541"
@@ -8175,6 +8251,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R0_OUTPUT1"
+			(at 88.5033 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -8238,6 +8322,12 @@
 			(uuid "8b5b14a2-f760-41d4-aafd-52afeecfbf7e")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U58")
@@ -8303,6 +8393,12 @@
 			(uuid "47dcd388-3214-4616-bc8d-91e8a9a5a23c")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0304")
@@ -8406,6 +8502,12 @@
 			(uuid "910b5d83-cde0-4a11-87c0-89ec68ef3bf4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U25")
@@ -8472,6 +8574,12 @@
 			(uuid "6b42fe11-9fb9-4448-88e5-09c53ed040ae")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0195")
@@ -8575,6 +8683,12 @@
 			(uuid "0cfbc04d-4a61-4d8f-a620-63f34481bf96")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U25")
@@ -8642,6 +8756,12 @@
 			(uuid "5f163352-5b86-487c-9adb-b12f2ca74818")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0183")
@@ -8745,6 +8865,12 @@
 			(uuid "e507a212-d246-4d7f-af0a-335b90937f91")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U25")
@@ -8812,6 +8938,12 @@
 			(uuid "753919cd-dd61-4e76-860f-6319a1d2804f")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0196")
@@ -8879,6 +9011,12 @@
 			(uuid "b11b050b-1e21-462c-aa38-94c8640423ae")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0190")
@@ -8947,6 +9085,12 @@
 			(uuid "50bfe21e-ff1d-4c75-b41c-95a3ba7d5657")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C45")
@@ -9056,6 +9200,12 @@
 			(uuid "3f56a911-918a-4607-80fe-daddaa790ec0")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U24")
@@ -9123,6 +9273,12 @@
 			(uuid "e798eed6-eca7-48e4-ac27-06b863fa590c")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0193")
@@ -9191,6 +9347,12 @@
 			(uuid "c8792d46-3fbf-4c71-aee3-aa8f42246349")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C52")
@@ -9256,6 +9418,12 @@
 			(uuid "d2f49275-0833-4dde-a058-691fdc756281")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0311")
@@ -9322,6 +9490,12 @@
 			(uuid "5f2d0a54-2394-4f13-8e87-a81f7f200a6d")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0191")
@@ -9431,6 +9605,12 @@
 			(uuid "4ae50b9f-dfd0-4f84-982e-5462a44c2163")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U23")
@@ -9496,6 +9676,12 @@
 			(uuid "e242a16a-6190-4f1b-929a-162ed7b395c1")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0314")
@@ -9599,6 +9785,12 @@
 			(uuid "f05464f4-f336-40f6-b55d-ec01046171bf")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U26")
@@ -9664,6 +9856,12 @@
 			(uuid "e8b0cd6b-c55a-4bd2-a0a5-704dd201e2c3")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0305")
@@ -9767,6 +9965,12 @@
 			(uuid "726797c7-70a4-4b86-bd57-9b925111c5d8")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U26")
@@ -9870,6 +10074,12 @@
 			(uuid "71732644-3471-4ed7-a436-3a59b30915be")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U26")
@@ -9938,6 +10148,12 @@
 			(uuid "b602d522-d5a7-4204-a3bb-155ccb453cba")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C51")
@@ -10003,6 +10219,12 @@
 			(uuid "c2c3b4af-c154-4f49-b9cd-5adcd4057890")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0315")
@@ -10068,6 +10290,12 @@
 			(uuid "2f5e3c44-0e70-475c-8b84-318ba628d507")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0308")
@@ -10134,6 +10362,12 @@
 			(uuid "4f59d180-5026-4057-a4ad-212588623ae2")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0182")
@@ -10237,6 +10471,12 @@
 			(uuid "70159077-79bf-4e1d-9665-366e8ec1ee80")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U25")
@@ -10305,6 +10545,12 @@
 			(uuid "7e934d33-2d1b-416a-897f-ded9ab7bb5b8")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C47")
@@ -10372,6 +10618,12 @@
 			(uuid "12f3ef52-30ca-4bb3-8c0c-c3f7b62f4634")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0181")
@@ -10438,6 +10690,12 @@
 			(uuid "6f0d5824-8bf6-40a9-8cc8-3a2aa04ec106")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0187")
@@ -10463,14 +10721,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R3"
-			(at 42.7833 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS377"
@@ -10507,6 +10757,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R3"
+			(at 42.7833 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -10570,6 +10828,12 @@
 			(uuid "7d69fde9-66d2-4909-824f-ae723f5e200b")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U59")
@@ -10635,6 +10899,12 @@
 			(uuid "76262031-99dc-47ea-8ea6-2b96d37ebc32")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0307")
@@ -10701,6 +10971,12 @@
 			(uuid "e65d793c-9a78-49e6-a33c-34a638404b72")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0205")
@@ -10726,14 +11002,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R0_OUTPUT3"
-			(at 88.5033 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS541"
@@ -10770,6 +11038,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R0_OUTPUT3"
+			(at 88.5033 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -10833,6 +11109,12 @@
 			(uuid "3bc2e9a9-18e2-4650-a7d0-78486dfbf0b9")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U60")
@@ -10942,6 +11224,12 @@
 			(uuid "19ecc2f6-8594-406c-b86c-b68e0defd930")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U24")
@@ -11007,6 +11295,12 @@
 			(uuid "bcd0820d-1a58-4a5d-8caa-fed2d97375f3")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0306")
@@ -11074,6 +11368,12 @@
 			(uuid "5004e6c0-2629-42f9-bb43-efaf18d194cf")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0207")
@@ -11140,6 +11440,12 @@
 			(uuid "081bfbae-e2a3-42dc-aa67-c628a988fcf6")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0184")
@@ -11207,6 +11513,12 @@
 			(uuid "fdf9db58-a113-4905-a7da-94f1f75b01ee")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0197")
@@ -11272,6 +11584,12 @@
 			(uuid "aaaee4fc-d3f2-4e67-bded-63afdcd7a0a7")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0309")
@@ -11338,6 +11656,12 @@
 			(uuid "877c4f7c-bff6-42f4-8ba3-944306d217f4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0206")
@@ -11406,6 +11730,12 @@
 			(uuid "9a2fe1b7-8ef0-43f6-9742-ebe6e29b9fa4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C50")
@@ -11473,6 +11803,12 @@
 			(uuid "282d941b-78ab-4c4d-9119-214f81c4c790")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0186")
@@ -11539,6 +11875,12 @@
 			(uuid "3e487336-2f7f-44f2-b321-7de70d1e9a88")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0194")
@@ -11642,6 +11984,12 @@
 			(uuid "d7c92dd4-9a9a-49a7-8183-e2fd2dfa1b58")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U25")
@@ -11751,6 +12099,12 @@
 			(uuid "76f9b685-57c8-44cb-b21a-b5c773ba3185")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U23")
@@ -11776,14 +12130,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R1"
-			(at 42.7833 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS377"
@@ -11820,6 +12166,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R1"
+			(at 42.7833 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -11883,6 +12237,12 @@
 			(uuid "7885f733-d6b9-45ec-804e-f50e6268c756")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U61")
@@ -11986,6 +12346,12 @@
 			(uuid "8e465e37-05a8-4c76-8563-8a1dfa9f77f5")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U26")
@@ -12095,6 +12461,12 @@
 			(uuid "e061b1d9-276b-4896-a36c-0fb69f18d061")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U24")
@@ -12198,6 +12570,12 @@
 			(uuid "01806be5-e45c-45dd-9cc9-b51b7eedb8f4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U26")
@@ -12307,6 +12685,12 @@
 			(uuid "40b1f54b-ac21-4a49-a1b5-8d7e4f9f4834")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U23")
@@ -12375,6 +12759,12 @@
 			(uuid "0cff5095-678a-4ffb-881b-c2153138ef6f")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C48")
@@ -12442,6 +12832,12 @@
 			(uuid "b2fd8eae-c03f-4d52-888b-1e05f24e0de4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0203")
@@ -12467,14 +12863,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R2"
-			(at 42.7833 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS377"
@@ -12511,6 +12899,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R2"
+			(at 42.7833 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -12574,6 +12970,12 @@
 			(uuid "9cab4e15-2261-45e8-822a-89cf752107fd")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U62")
@@ -12639,6 +13041,12 @@
 			(uuid "174d5427-deca-4c7d-9063-912e247bfbb3")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0302")
@@ -12664,14 +13072,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R0_OUTPUT4"
-			(at 88.5033 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS541"
@@ -12708,6 +13108,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R0_OUTPUT4"
+			(at 88.5033 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12771,6 +13179,12 @@
 			(uuid "9164e997-f37f-43ca-8a05-10450b5918e5")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U63")
@@ -12837,6 +13251,12 @@
 			(uuid "de864024-5c8e-4b75-af07-5a8a8415f33b")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0201")
@@ -12902,6 +13322,12 @@
 			(uuid "859f82dc-f0d7-47fa-8554-604bcae85e79")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0312")
@@ -12970,6 +13396,12 @@
 			(uuid "e194f3bc-f25e-4bb3-a809-f8e9eaa618a4")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "C46")
@@ -12995,14 +13427,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Function" "R0_OUTPUT2"
-			(at 88.5033 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Value" "74LS541"
@@ -13039,6 +13463,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "R0_OUTPUT2"
+			(at 88.5033 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13102,6 +13534,12 @@
 			(uuid "728497c2-36c8-4693-9cbb-953a703da941")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "U64")
@@ -13169,6 +13607,12 @@
 			(uuid "bdadb41d-19e9-4647-b363-dba19dfbfe1e")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0204")
@@ -13235,6 +13679,12 @@
 			(uuid "5928d01d-2586-4099-9e82-e90dfd302ee2")
 		)
 		(instances
+			(project "RegisterFile"
+				(path "/500a1f41-d129-4991-9bdd-5993521842a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Kestrel8"
 				(path "/afdf0bd2-bb31-4132-9ca5-f1f94e74d630/502d5c19-77db-4efd-ba1d-400496cafb70"
 					(reference "#PWR0180")
@@ -13243,4 +13693,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

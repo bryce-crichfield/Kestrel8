@@ -11369,6 +11369,28 @@
 			)
 		)
 	)
+	(global_label "ALU_OP_2"
+		(shape input)
+		(at 162.56 378.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e569907-e577-47e6-8929-9df695aaf7a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.74 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "X_7"
 		(shape input)
 		(at 40.64 151.13 180)
@@ -11976,6 +11998,28 @@
 		(uuid "42624e5b-7d1d-4fd1-94e3-98fa08016e47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.7853 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}SHR_OUT"
+		(shape input)
+		(at 302.26 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43852028-f529-48bf-948c-82c5fed4ae11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13085,7 @@
 			)
 		)
 	)
-	(global_label "{slash}RESET"
+	(global_label "RESET"
 		(shape input)
 		(at 99.06 381 180)
 		(fields_autoplaced yes)
@@ -14242,6 +14286,28 @@
 		(uuid "8af0b81a-a4a5-42d3-93d6-6d040a708acf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.8982 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALU_OP_1"
+		(shape input)
+		(at 162.56 375.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b26b432-9eea-4e7b-b40a-83048c40ba16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.74 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16187,6 +16253,28 @@
 			)
 		)
 	)
+	(global_label "ALU_OP_0"
+		(shape input)
+		(at 162.56 373.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e387bbbb-3bbb-4d08-af37-0d58ba763549")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.74 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DAT_0"
 		(shape input)
 		(at 152.4 185.42 0)
@@ -17129,14 +17217,6 @@
 				)
 			)
 		)
-		(property "Function" "Z_DETECT"
-			(at 62.23 336.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS688"
 			(at 62.23 341.5598 0)
 			(effects
@@ -17170,6 +17250,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "Z_DETECT"
+			(at 62.23 336.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "14"
@@ -18944,14 +19032,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ADD_OUTPUT"
-			(at 318.3733 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS541"
 			(at 318.3733 269.24 0)
 			(effects
@@ -18986,6 +19066,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ADD_OUTPUT"
+			(at 318.3733 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -19387,14 +19475,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ADDH"
-			(at 375.5233 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS283"
 			(at 375.5233 199.39 0)
 			(effects
@@ -19429,6 +19509,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ADDH"
+			(at 375.5233 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -20734,14 +20822,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ALU_Y"
-			(at 370.4433 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 370.4433 354.33 0)
 			(effects
@@ -20776,6 +20856,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ALU_Y"
+			(at 370.4433 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -21104,14 +21192,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "XOR_OUTPUT"
-			(at 141.8433 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS541"
 			(at 141.8433 181.61 0)
 			(effects
@@ -21146,6 +21226,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "XOR_OUTPUT"
+			(at 141.8433 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -21236,14 +21324,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "C_DETECT"
-			(at 177.4033 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74HC151"
 			(at 177.4033 345.44 0)
 			(effects
@@ -21278,6 +21358,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "C_DETECT"
+			(at 177.4033 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -22004,14 +22092,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "FN_DECODE"
-			(at 97.3933 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS138"
 			(at 97.3933 270.51 0)
 			(effects
@@ -22046,6 +22126,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "FN_DECODE"
+			(at 97.3933 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -25678,14 +25766,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ALU_X"
-			(at 313.2933 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS377"
 			(at 313.2933 354.33 0)
 			(effects
@@ -25720,6 +25800,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ALU_X"
+			(at 313.2933 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -26048,14 +26136,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "SHR_OUTPUT"
-			(at 317.1033 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS541"
 			(at 317.1033 123.19 0)
 			(effects
@@ -26090,6 +26170,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "SHR_OUTPUT"
+			(at 317.1033 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -26788,14 +26876,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "OP_DECODE"
-			(at 44.0533 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS157"
 			(at 44.0533 262.89 0)
 			(effects
@@ -26830,6 +26910,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "OP_DECODE"
+			(at 44.0533 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -26908,14 +26996,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "NOT_OUTPUT"
-			(at 318.3733 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS540"
 			(at 318.3733 41.91 0)
 			(effects
@@ -26950,6 +27030,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "NOT_OUTPUT"
+			(at 318.3733 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -27889,14 +27977,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "FLAGS_REGISTER"
-			(at 113.9033 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS173"
 			(at 113.9033 345.44 0)
 			(effects
@@ -27931,6 +28011,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "FLAGS_REGISTER"
+			(at 113.9033 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -28674,14 +28762,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "ADDL"
-			(at 318.3733 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS283"
 			(at 318.3733 199.39 0)
 			(effects
@@ -28716,6 +28796,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "ADDL"
+			(at 318.3733 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -30212,14 +30300,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "OR_OUTPUT"
-			(at 54.2133 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS541"
 			(at 54.2133 179.07 0)
 			(effects
@@ -30254,6 +30334,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "OR_OUTPUT"
+			(at 54.2133 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -31427,14 +31515,6 @@
 				(justify left)
 			)
 		)
-		(property "Function" "AND_OUTPUT"
-			(at 234.5533 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "74LS541"
 			(at 234.5533 177.8 0)
 			(effects
@@ -31469,6 +31549,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" "AND_OUTPUT"
+			(at 234.5533 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
